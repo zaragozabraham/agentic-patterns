@@ -35,4 +35,5 @@ import { ollama } from 'ollama-ai-provider-v2';
 // export const model = google('gemini-2.5-flash');
 
 // Ollama:
-export const model = ollama('gemma4:12b');
+// export const model = ollama('gemma4:12b');
+export const model = ollama('qwen3.5:4b');
