@@ -1,5 +1,5 @@
 import './helpers/string-colors.js';
-import { reActWeatherMain } from './patterns/04-react/react-hw.js';
+import { promptChainingMain } from './patterns/05-prompt-chaining/prompt-chaining.js';
 // import { getMessageFromModel } from './actions/get-message-model.js';
 
 console.clear();
@@ -8,4 +8,4 @@ console.clear();
 // await useToolMain();
 // await planningMain();
 // await reflectionMain();
-await reActWeatherMain();
+await promptChainingMain();
