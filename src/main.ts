@@ -1,5 +1,5 @@
 import './helpers/string-colors.js';
-import { routingMain } from './patterns/08-routing/routing.js';
+import { orchestratorWorkersMain } from './patterns/09-orchestrator/orchestrator.js';
 // import { getMessageFromModel } from './actions/get-message-model.js';
 
 console.clear();
@@ -8,4 +8,5 @@ console.clear();
 // await useToolMain();
 // await planningMain();
 // await reflectionMain();
-await routingMain();
+// await routingMain();
+await orchestratorWorkersMain();
