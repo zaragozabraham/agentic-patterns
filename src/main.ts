@@ -1,5 +1,5 @@
 import './helpers/string-colors.js';
-import { codeActMain } from './patterns/07-code-act/code-act.js';
+import { routingMain } from './patterns/08-routing/routing.js';
 // import { getMessageFromModel } from './actions/get-message-model.js';
 
 console.clear();
@@ -8,4 +8,4 @@ console.clear();
 // await useToolMain();
 // await planningMain();
 // await reflectionMain();
-await codeActMain();
+await routingMain();
