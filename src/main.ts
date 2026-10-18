@@ -1,5 +1,5 @@
 import './helpers/string-colors.js';
-import { orchestratorWorkersMain } from './patterns/09-orchestrator/orchestrator.js';
+import { parallelizationMain } from './patterns/10-parallelization/parallelization.js';
 // import { getMessageFromModel } from './actions/get-message-model.js';
 
 console.clear();
@@ -9,4 +9,5 @@ console.clear();
 // await planningMain();
 // await reflectionMain();
 // await routingMain();
-await orchestratorWorkersMain();
+// await orchestratorWorkersMain();
+await parallelizationMain();
