@@ -1,5 +1,5 @@
 import './helpers/string-colors.js';
-import { parallelizationMain } from './patterns/10-parallelization/parallelization.js';
+import { humanInTheLoopMain } from './patterns/11-human-loop/human-loop.js';
 // import { getMessageFromModel } from './actions/get-message-model.js';
 
 console.clear();
@@ -10,4 +10,5 @@ console.clear();
 // await reflectionMain();
 // await routingMain();
 // await orchestratorWorkersMain();
-await parallelizationMain();
+// await parallelizationMain();
+await humanInTheLoopMain();
